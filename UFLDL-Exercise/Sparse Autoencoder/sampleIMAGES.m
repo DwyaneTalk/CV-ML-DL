@@ -23,14 +23,15 @@ patches = zeros(patchsize*patchsize, numpatches);
 %  more details.) As a second example, IMAGES(21:30,21:30,1) is an image
 %  patch corresponding to the pixels in the block (21,21) to (30,30) of
 %  Image 1
-
-
-
-
-
-
-
-
+for ipatch = 1 : numpatches
+    numimages = size(IMAGES, 3);
+    numrows = size(IMAGES, 1);
+    numcols = size(IMAGES, 1);
+    selectedimage = randi(numimages);
+    selectedrow = randi(numrows - patchsize + 1);
+    selectedcol = randi(numcols - patchsize + 1);
+    patches(: , ipatch) = reshape(IMAGES(selectedrow : selectedrow + patchsize - 1, selectedcol : selectedcol + patchsize - 1, selectedimage), patchsize * patchsize, 1);
+end
 
 
 %% ---------------------------------------------------------------
