@@ -1,4 +1,7 @@
-# imageProcessing
+# CV-ML-DL
+learning notes and exercise imlementations about image processing, computer vision, machine learning and deep leaning.
+
+## 1. imageProcessing
 basic image processing realization using matlab 
 
 ### including:
@@ -11,6 +14,15 @@ basic image processing realization using matlab
 ### referrence
 >   《特征提取图图像处理（第三版）》，Mark S.Nixon/Alberto S.Aguado著，李实英/杨高波译     
 >   《Digital Image Processing, Third Edition》, Rafael C. Gonzalez / Richiard E. Woods 著
+
+## 2.UFLDL-Exercise
+the main ideas of Unsupervised Feature Learning and Deep Learning and the exercise implementations
+
+### including
+- **Sparse Autoencoder**:
+
+### referrence
+> UFLDL wiki : [http://deeplearning.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B][1]
 
 ### DwyaneTalk
 ```      
@@ -39,3 +51,4 @@ basic image processing realization using matlab
            心外无法       法外无心
 ```
            
+[1]:http://deeplearning.stanford.edu/wiki/index.php/UFLDL%E6%95%99%E7%A8%8B
